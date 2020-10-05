@@ -1,0 +1,7 @@
+---
+all:
+  hosts:
+    cowintgdd62030ce2:
+      ansible_port: 22
+      ansible_host: 168.119.104.59
+      ansible_user: root
