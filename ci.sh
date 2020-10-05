@@ -29,7 +29,6 @@ echo "ci_mailcow__api_key_read_only: $(openssl rand -hex 25)"  > /drone/src/grou
 echo "ci_mailcow__upload_results: true" > /drone/src/group_vars/all/mailcow__upload_results.yml
 
 domains[0]="010111010.xyz"
-domains[0]="4884884.xyz"
 domains[0]="idntest.xyz"
 domains_size=${#domains[@]}
 domains_index=$(($RANDOM % $domains_size))
